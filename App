@@ -1,8 +1,11 @@
+import java.lang.Object;
 import java.awt.Frame;
+import java.awt.TextArea;
 
 public class App extends Frame{
 
-    public App{
+    public App(){
+        TextArea Stuff = new TextArea("Hi");
 	
     }
 
