@@ -1,0 +1,10 @@
+import wheels.users.*;
+import wheels.etc.*;
+public class GwentApp extends Frame{
+    private Gameboard _gameboard;
+    public GwentApp(){
+	_gameboard = new Gameboard(10,10);
+    }
+    public static void main(String[]args){
+	GwentApp gwent = new GwentApp();
+    }}
