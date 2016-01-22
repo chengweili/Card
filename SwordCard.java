@@ -1,12 +1,9 @@
 import wheels.users.*;
 
-public class SwordCard{
-   
-    private int _row;
+public class SwordCard extends Card{
 
-    public SwordCard(int atk){
-	super(atk);
-	_row = 1;
+    public SwordCard(int atk, int row){
+	super(atk, row);
     }
 
 }
