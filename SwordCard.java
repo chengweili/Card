@@ -2,10 +2,10 @@ import wheels.users.*;
 
 public class SwordCard{
    
-    private int _atk, _row;
+    private int _row;
 
     public SwordCard(int atk){
-	_atk = atk;
+	super(atk);
 	_row = 1;
     }
 
