@@ -1,12 +1,13 @@
 import wheels.users.*;
 
-public class Card{
+public class Card extends Rectangle{
 
     private int _atk, _row;
 
     public Card(int atk, int row){
+	this.setSize(50,50);
 	_atk = atk;
-	_row = row;
+	_row = row;	
     }
 
     public int getAtk(){
@@ -18,3 +19,4 @@ public class Card{
     }
 
 }
+
