@@ -1,13 +1,12 @@
 import wheels.users.*;
 
-public class BowCard{
+public class SwordCard{
+   
+    private int _row;
 
-    private int _atk, _row;
-
-    public BowCard(int atk){
-	_atk = atk;
-	_row = 2;
+    public SwordCard(int atk){
+	super(atk);
+	_row = 1;
     }
 
 }
-	    
