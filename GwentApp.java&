@@ -4,12 +4,11 @@ import wheels.etc.*;
 public class GwentApp extends Frame{
     
     private int _swordRowAtk, _bowRowAtk, _siegeRowAtk;
-    private Gameboard _gameboard;
     private SwordCard _swordCard;
     
 
     public GwentApp(){
-	_gameboard = new Gameboard(10,10);
+	super();
 	_swordCard = new SwordCard(10,1);
     }
 
