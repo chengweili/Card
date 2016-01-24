@@ -1,10 +1,10 @@
 import wheels.users.*;
 
-public class CardImage extends Image{
+public class TetrisImage extends Image{
   
   private Image _card;
   
-  public CardImage(String file){
+  public TetrisImage(String file){
     super(file);
     _card = new Image(file);
   }
