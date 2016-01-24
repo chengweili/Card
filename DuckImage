@@ -1,0 +1,15 @@
+import wheels.users.*;
+
+public class DuckImage extends Image{
+  
+  private Image _card;
+  
+  public DuckImage(String file)throws InterruptedException{ 
+    super(file);
+    _card = new Image(file);
+    while (getXLocation() > 10){
+      setLocation(getXLocation() - 50, getYLocation());
+      Thread.sleep(1000);
+    }
+  }
+}
